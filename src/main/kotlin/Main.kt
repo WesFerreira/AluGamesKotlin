@@ -16,4 +16,7 @@ fun main() {
     val json = response.body()
     println(json)
 
+    val meuJogo = Jogo("Batman", "")
+    println(meuJogo)
+
 }
